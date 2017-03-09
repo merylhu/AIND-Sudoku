@@ -128,6 +128,9 @@ def search(values):
             return attempt
 
 def solve(grid):
+    #values = grid_values(grid)
+    #values = search(values)
+    #return values
     """
     Find the solution to a Sudoku grid.
     Args:
