@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: Experimenting with git to see if my branch is actually there 
+A: One of the strategies to perform constraint propagation for sudoku, is to perform elminiation, only choice and naked twins one after the other till we can reduce the problem to the smallest possible subset before doing the branching out and recurrence on a small set of possibilities.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: If we ensure that our unitlist contains the two diagonals , we can make sure that our sudoku solution also considers the two diagonals while performing all the operations.
 
 ### Install
 
